@@ -7,4 +7,4 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    service-url: http://localhost:8099/eureka
+    service-url: "http://localhost:8099/eureka"
