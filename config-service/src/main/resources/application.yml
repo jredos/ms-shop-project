@@ -6,11 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jredos/ms-shop-project.git
+          uri: "https://github.com/jredos/ms-shop-project.git"
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-    security:
-      user:
-        name: root
-        password: s3cr3t
+          default-label: "main"
+  security:
+    user:
+      name: root
+      password: s3cr3t
